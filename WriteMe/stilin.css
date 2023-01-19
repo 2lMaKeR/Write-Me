@@ -24,7 +24,7 @@ section{
     margin: auto;
     border: 4px solid rgb(255, 255, 255);
 }
-input#nota{
+textarea#nota{
     width: 400px; /*largura*/
     border: 4px solid rgb(0, 0, 0);
     border-radius: 7px;
@@ -37,16 +37,17 @@ input#email{
     height: 25px;
     border-radius: 7px;
 }
-p#enviar{
+input#enviar{
     padding: 15px;
     color: rgb(255, 255, 255);
-    width: 50px;
+    width: 75px;
     background: rgba(0, 0, 0, 0.404);
     margin: auto;
     box-shadow: 5px 5px 10px black;
     border-radius: 25px;   
 }
 footer{
+    margin: 75px;
     color: white;
     font-style: italic;
 }

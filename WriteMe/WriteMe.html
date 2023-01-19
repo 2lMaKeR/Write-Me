@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Write Me</title>
+  <link rel="stylesheet" href="stilin.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init('Public key (ID) do EmailJS');
+    })();
+  </script>
+  <script type="text/javascript">
+    window.onload = function () {
+      document.getElementById('contact-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+        this.contact_number.value = Math.random() * 100000 | 0;
+        emailjs.sendForm('service_v6cwnqi', 'template_xsjrfue', this)
+          .then(function () {
+            window.alert('Nota enviada!!')
+            console.log('SUCCESS!');
+          }, function (error) {
+            console.log('FAILED...', error);
+          });
+      });
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Write Me...</h1>
+  </header>
+  <section>
+    <form id="contact-form">
+      <input type="hidden" name="contact_number">
+      <br>
+      <div>
+        <p>
+          <label><strong>Escreva aqui</strong> &#128071</label>
+        </p>
+        <textarea name="message" id="nota"></textarea>
+      </div>
+      <div>
+        <p>
+          <label>&#128238 <strong>Email</strong>  &#128238</label>
+        </p>
+        <input type="email" name="to_name" id="email">
+      </div>
+      <br>
+      <div>
+        <input type="submit" value="Enviar" id="enviar">
+      </div>
+    </form>
+    <br>
+  </section>
+  <footer>
+    <div>
+        Escreva o que deseja salvar, adicione um e-mail para o envio e clique em <strong>ENVIAR</strong>.
+    </div>
+</footer>
+</body>
+
+</html>
