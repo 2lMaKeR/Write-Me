@@ -41,4 +41,4 @@ Fique à vontade para abrir um issue ou envia um email no próprio site para (wr
 
 ## Sobre
 
-O projeto está sob a licença *MIT License*.
+O projeto está sob a licença *MIT License*. Veja o arquivo [LICENSE](https://github.com/2lMaKeR/Write-Me/blob/main/LICENSE) para mais detalhes.
