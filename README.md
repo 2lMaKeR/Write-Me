@@ -1,13 +1,13 @@
 # Write Me
  O Write Me é um site que mescla HTML, CSS e JavaScript com a integração da API [EmailJS](https://www.emailjs.com).
- o site é utilizado para salvar as sua notas em qualquer lugar, evitando a dependência do bom e velho papel.
+ O site é utilizado para salvar as sua notas em qualquer lugar, evitando a dependência do bom e velho papel.
 
  ## Índice
 
  - [Features](#features)
  - [Como usar](#como-usar)
  - [Sugestões e Bugs](#sugestões-e-bugs)
- - [Sobre]()
+ - [Sobre](#sobre)
 
 ## Features
 
@@ -27,7 +27,7 @@ link do site já hospedado:
 
 #### Pré-requisitos
 
-Será necessário ter em sua máquina
+Será necessário os seguintes pré-requisitos
 
 - [VSCode](https://code.visualstudio.com)
 - HTML 5 e CSS 3.
@@ -41,4 +41,4 @@ Fique à vontade para abrir um issue ou envia um email no próprio site para (wr
 
 ## Sobre
 
-O projeto está sob a licença **
+O projeto está sob a licença *MIT License*.
