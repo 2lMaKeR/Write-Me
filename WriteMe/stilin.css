@@ -46,6 +46,15 @@ input#enviar{
     box-shadow: 5px 5px 10px black;
     border-radius: 25px;   
 }
+input#enviar:hover{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    width: 75px;
+    background: rgba(0, 0, 0, 0.822);
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    border-radius: 25px;   
+}
 footer{
     margin: 75px;
     color: white;
