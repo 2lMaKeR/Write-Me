@@ -21,7 +21,7 @@ Recursos existentes no site:
 
 ### Acessando
 
-link do site já hospedado:
+Link do site já hospedado:
 
 ### Hospedando na sua máquina:
 
